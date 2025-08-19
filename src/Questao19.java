@@ -4,14 +4,19 @@ public class Questao19 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Primeira Nota:");
-        int valor1 = input.nextInt();
+
+        double valor1 = input.nextDouble();
         System.out.println("Segunda Nota:");
-        int valor2 = input.nextInt();
+
+        double valor2 = input.nextDouble();
         System.out.println("Terceira Nota:");
-        int valor3 = input.nextInt();
+
+        double valor3 = input.nextDouble();
         System.out.println("Quarta Nota: ");
-        int valor4 = input.nextInt();
-        int media = (valor1 + valor2 + valor3 + valor4) / 4;
+
+        double valor4 = input.nextDouble();
+        double media = (valor1 + valor2 + valor3 + valor4) / 4;
+
         System.out.println("A média é " + media);
     }
 }
